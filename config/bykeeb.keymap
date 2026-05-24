@@ -30,7 +30,7 @@
 &lt {
   flavor = "balanced";
   tapping-term-ms = <200>;
-  quick-tap-ms = <QUICK_TAP_MS>;
+  quick-tap-ms = <175>;
 };
  
  / {
@@ -110,7 +110,7 @@
              bindings = <
      &kp GRAVE   &kp F12       &kp F7     &kp F8         &kp F9                                    &kp LC(A)     &kp LC(C)     &kp LC(V)    &kp HOME      &kp PG_UP
      &trans      &kp F11       &kp F4     &kp F5         &kp F6                                    &kp C_VOL_DN  &kp C_VOL_UP  &kp UP       &kp END       &kp PG_DN
-     &trans      &kp F10       &kp F1     &kp F2         &kp F3                                    &kp CAPS      &kp LEFT      &kp DOWN     &RIGHT        &kp DEL
+     &trans      &kp F10       &kp F1     &kp F2         &kp F3                                    &kp CAPS      &kp LEFT      &kp DOWN     &kp RIGHT        &kp DEL
                                           &trans         &trans       &trans        &trans         &trans        &trans
              >;
          };
