@@ -11,7 +11,6 @@
  #include <dt-bindings/zmk/outputs.h>
  #include <dt-bindings/zmk/mouse.h>
  #include <behaviors/mouse_keys.dtsi>
- #include "mouse.dtsi"
  
  #define DEFAULT 0
  #define NUM     1
@@ -127,9 +126,9 @@
  
          mouse_layer {
              bindings = <
-     &trans       &trans        &trans       &trans        &trans                                     &trans    &trans        &mkp MCLK    &kp LC(MINUS)  &kp LC(EQUAL)
-     &trans       &trans        &trans       &trans        &trans                                     &trans    &mkp LCLK     U_MS_U       &mkp RCLK      U_WH_U
-     &trans       &trans        &trans       &trans        &trans                                     &trans    U_MS_L        U_MS_D       U_MS_R         U_WH_D
+     &trans       &trans        &trans       &trans        &trans                                     &trans    &trans        &trans    &kp LC(MINUS)  &kp LC(EQUAL)
+     &trans       &trans        &trans       &trans        &trans                                     &trans        &trans         &trans        &trans        &trans
+     &trans       &trans        &trans       &trans        &trans                                     &trans        &trans         &trans        &trans        &trans
                                              &trans        &trans        &trans        &trans         &trans             &trans
              >;
          };
